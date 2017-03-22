@@ -1,4 +1,4 @@
-# narudgi.github.io
-Narudgi website
+# tom-aiiko.github.io
+Thomas Csigai website by Ewan Argouse (Narudgi)
 
-© Ewan Argouse (Narudgi) 2017 - Tous droits réservés.
+Å  Ewan Argouse (Narudgi) 2017 - Tous droits rÃ©servÃ©s.
