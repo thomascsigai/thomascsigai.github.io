@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#66cef4" />
+    <link rel="icon" type="image/png" href="../img/favicon.png" sizes=160x160>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="text/javascript" src="../js/google.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Narudgi</title>
+</head>
+
+<body>
+    <div id="background" class="body">
+
+        <div id="center">
+            <section class="nav nav-box sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-family: monospace; padding: 1rem;">&times;</a>
+                <a href="../index.html" class="bounce">Narudgi</a>
+                <a href="projets.html" class="bounce">Projets</a>
+                <a href="dessin.html" class="bounce">Dessins</a>
+                <a href="liens.html" class="bounce">Liens</a>
+                <a href="version.html" class="bounce">Version</a>
+            </section>
+
+
+            <section id="middle">
+                <div>
+
+                    <img src="../img/icon.png" height="92" width="92" onclick="openNav()" class="img"></img>
+
+
+                    <article class="inside">
+                        <h1>Vide (en cours)...</h1>
+                        <article>
+                            <br>
+
+                             <img class="myImg" src="../img/draw1.jpg" alt="Feutre" width="auto;" height="300px;">
+                             <img class="myImg" src="../img/draw2.jpg" alt="Characters ideas" width="auto;" height="400px;">
+                             <img class="myImg" src="../img/draw3.jpg" alt="Character concept" width="auto;" height="400px;">
+                             <img class="myImg" src="../img/draw4.jpg" alt="Characters ideas" width="auto;" height="400px;">
+
+
+                            <div id="myModal" class="modal">
+                                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                            </div>
+                </div>
+
+
+
+            </section>
+            <section id="footer">
+                <h2>© Ewan Argouse (Narudgi) 2017 - Tous droits réservés.</h2>
+            </section>
+        </div>
+
+    </div>
+</body>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+</html>

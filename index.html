@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#66cef4" />
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes=160x160>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/google.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <title>Thomas Csigai</title>
+</head>
+
+<body>
+    <div id="background" class="body" onload="move()">
+        <div id="center">
+            <section class="nav nav-box sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-family: monospace; padding: 1rem;">&times;</a>
+                <a href="index.html" class="bounce">Moi</a>
+                <a href="inc/projets.html" class="bounce">Projets</a>
+                <a href="inc/dessin.html" class="bounce">Dessins</a>
+                <a href="inc/liens.html" class="bounce">Liens</a>
+                <a href="inc/version.html" class="bounce">Version</a>
+            </section>
+            <section id="middle">
+                <img src="img/icon.png" onclick="openNav()" class="img"></img>
+                <article class="inside">
+                    <div class="contain">
+                        <img class="top" src="img/pp.png" alt="Mon image de profil"></img>
+
+                    </div>
+                    <h1>Thomas Csigai</h1>
+                    <hr>
+                  <div class="brii">
+                    <h2>16 ans</h2>
+                    <h2>Lycéen</h2>
+                    <h2>Futur développeur de jeux / Game Designer</h2>
+                    <hr><h2>Centres d'intérets :</h2>
+                    <h2>Game Design / Level Design</h2>
+                    <h2>Développement de jeux sur des moteurs simples (Gamemaker, love 2d, Inform7 ...)</h2>
+                    <h2>Apprentissage sur des moteurs plus complexes (Unreal Engine 4, Unity ...)</h2>
+                    <h2>Bidouille en programmation (Lua, html/css, Python, GML)</h2>
+                    <h2>Dessin, Digital Art</h2>
+                    <h2>Adorateur des jeux indépendants</h2>
+                  </div>
+                    <hr><h1>Naviguez à travers le site pour découvrir mon travail ou pour me contacter</h1>
+                    </div>
+                    <br><br><br>
+                </article>
+            </section>
+            <section id="footer">
+                <h2>© Ewan Argouse (Narudgi) 2017 - Tous droits réservés.
+                </h2>
+            </section>
+        </div>
+    </div>
+</body>
+<!-- script bar -->
+<script>
+    window.onload = move(), move2(), move3(), move4(), move5();
+
+    function move() {
+        var elem = document.getElementById(
+            "myBar");
+        var width = 0;
+        var vit = 24;
+        var id = setInterval(frame, vit);
+
+        function frame() {
+            if (width >= 95) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width =
+                    width + '%';
+            }
+        }
+    }
+
+    function move2() {
+        var elem = document.getElementById(
+            "myBar2");
+        var width = 0;
+        var vit = 24;
+        var id = setInterval(frame, vit);
+
+        function frame() {
+            if (width >= 20) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width =
+                    width + '%';
+            }
+        }
+    }
+
+    function move3() {
+        var elem = document.getElementById(
+            "myBar3");
+        var width = 0;
+        var vit = 24;
+        var id = setInterval(frame, vit);
+
+        function frame() {
+            if (width >= 55) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width =
+                    width + '%';
+            }
+        }
+    }
+
+    function move4() {
+        var elem = document.getElementById(
+            "myBar4");
+        var width = 0;
+        var vit = 24;
+        var id = setInterval(frame, vit);
+
+        function frame() {
+            if (width >= 45) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width =
+                    width + '%';
+            }
+        }
+    }
+
+    function move5() {
+        var elem = document.getElementById(
+            "myBar5");
+        var width = 0;
+        var vit = 24;
+        var id = setInterval(frame, vit);
+
+        function frame() {
+            if (width >= 70) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width =
+                    width + '%';
+            }
+        }
+    }
+</script>
+
+</html>
