@@ -61,19 +61,19 @@
   padding: 3rem;
 }
 .nav > a:nth-child(2) {
-  background: #66cef4;
+  background: #f43333;
 }
 .nav > a:nth-child(3) {
-  background: #54778e;
+  background: #b04040;
 }
 .nav > a:nth-child(4) {
-  background: #66cef4;
+  background: #f43333;
 }
 .nav > a:nth-child(5) {
-  background: #54778e;
+  background: #b04040;
 }
 .nav > a:nth-child(6) {
-  background: #66cef4;
+  background: #f43333;
 }
 .nav > a h1, .nav > a h2 {
   margin: 0 0 0.2rem 0;
@@ -102,7 +102,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #95B5C4;
+  background: #972828;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
