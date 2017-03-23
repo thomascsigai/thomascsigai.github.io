@@ -196,7 +196,7 @@
 #center {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 90%;
 }
 
 .contain{
@@ -206,10 +206,10 @@
 .top {
   position: relative;
   z-index: 1;
-  border-radius: 10rem;
+  border-radius: 12rem;
   height: 24rem;
   width: 24rem;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 
