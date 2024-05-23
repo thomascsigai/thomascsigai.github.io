@@ -112,6 +112,9 @@ main h3 {
 
 main iframe{
   border: solid thin #9FC131;
+  max-width: 530px;
+  width: 90%;
+  margin-bottom: 20px;
 }
 
 main > img {
