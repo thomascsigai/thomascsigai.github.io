@@ -122,9 +122,26 @@ main > img {
   margin: 30px;
 }
 
+#goback label::after{
+  content: "";
+}
+
+#goback{
+  margin: auto;
+  max-width: 150px;
+}
+
 .firstList {
   max-width: 600px;
   width: 100%;
+  margin-bottom: 40px;
+}
+
+.firstList h2
+{
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .firstList > li {
