@@ -1,1 +1,1 @@
-want to contact me ? follow this [link](https://nihylin.github.io/contact/) :)
+Website made using [link](https://nihylin.github.io/contact/)

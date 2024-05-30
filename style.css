@@ -107,14 +107,6 @@ main h1 {
 
 main h3 {
   text-align: center;
-  margin-bottom: 30px;
-}
-
-main iframe{
-  border: solid thin #9FC131;
-  max-width: 530px;
-  width: 90%;
-  margin-bottom: 20px;
 }
 
 main > img {
