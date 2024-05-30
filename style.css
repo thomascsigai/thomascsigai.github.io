@@ -218,7 +218,7 @@ main > img {
 }
 
 .firstList input:checked~.content {
-  max-height: 100vh;
+  max-height: 200vh;
   padding: 1em;
 }
 
